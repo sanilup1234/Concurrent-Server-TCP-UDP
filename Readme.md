@@ -1,4 +1,5 @@
-How to Run :-
+
+## How to Run :-
 
 1. Run make file by
 
@@ -13,7 +14,7 @@ How to Run :-
 	$ ./client server_address port_number
 
 
-How It works :-
+## How It works :-
 
 TCP PHASE :-
 1. server will be waiting for a TCP connection from the client.
@@ -23,13 +24,14 @@ TCP PHASE :-
 5. TCP connection on both the server and client will be closed
 
 
-UDP Phase (After recieving UDP port from Server) 
+## UDP Phase (After recieving UDP port from Server) 
 
 1. client transmits a short Data Message (Type 3 message) over the UDP port. 
 2. The server will display the received Data Message and sends a Data Response (type 4 message) to indicate the successful reception. 
 3. After this data transfer phase, both sides close their UDP sockets.
 4. and server will wait for another connection
 
-
-From - Sanil Upadhyay(194101043)
-	   Rajat Shukla(194101039)
+## Demo
+![Demo](https://github.com/sanilup1234/Concurrent-Server-TCP-UDP/blob/master/demo.gif)
+**From - Sanil Upadhyay(194101043)**
+	   **Rajat Shukla(194101039)**
